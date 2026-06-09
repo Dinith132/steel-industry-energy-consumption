@@ -1,0 +1,23 @@
+# Copy of hourly config with CO2 removed — optional ablation
+track: hourly
+experiment_name: Final/experiments/remove_co2_hourly
+interval: 1h
+resample: true
+remove_co2: true
+window_sizes: [1, 4, 8, 12, 16, 24, 36, 48, 74, 168, 336, 672]
+models: [single, double, bidir]
+target: Usage_kWh
+include_target_lags: true
+preprocessing:
+  ordinal_encode: [WeekStatus, Load_Type, Day_of_week]
+  transform: minmax
+  test_ratio: 0.18
+  shuffle: false
+evaluation_metrics: [rmse, mae, r2, wia]
+training:
+  epochs: 50
+  batch_size: 32
+  lstm_units: 64
+  dropout: 0.1
+drive_base: /content/drive/MyDrive/Shared-Colab-Storage
+data_file: steel_industry_data_preprocessed_v1.csv
