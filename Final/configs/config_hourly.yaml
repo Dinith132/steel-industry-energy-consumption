@@ -1,0 +1,32 @@
+track: hourly
+experiment_name: Final/hourly
+interval: 1h
+resample: true
+window_sizes: [1, 4, 8, 12, 16, 24, 36, 48, 74, 168, 336, 672]
+models: [single, double, bidir]
+target: Usage_kWh
+include_target_lags: true
+preprocessing:
+  ordinal_encode: [WeekStatus, Load_Type, Day_of_week]
+  transform: minmax
+  test_ratio: 0.18
+  shuffle: false
+evaluation_metrics: [rmse, mae, r2, wia]
+training:
+  epochs: 50
+  batch_size: 32
+  lstm_units: 64
+  dropout: 0.1
+  optimizer: adam
+xai:
+  attributes: [shap, lime]
+  timesteps: integrated_gradients
+  sample_windows: [8, 24, 168]
+  shap_background_samples: 100
+  lime_num_samples: 500
+  ig_steps: 50
+drive_base: /content/drive/MyDrive/Shared-Colab-Storage
+github_repo: https://github.com/Dinith132/steel-industry-energy-consumption.git
+data_file: steel_industry_data_preprocessed_v1.csv
+raw_data_file: Steel_industry_data.csv
+kaggle_dataset: dinithpriyankara/research-dataset
