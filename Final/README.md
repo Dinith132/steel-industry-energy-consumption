@@ -8,6 +8,9 @@ UCI Steel Industry Energy Consumption dataset (DAEWOO plant, 2018).
 |----------|------------|--------------|
 | [`hourly.ipynb`](hourly.ipynb) | 1-hour (resampled) | 1, 4, 8, 12, 16, 24, 36, 48, 74, 168, 336, 672 |
 | [`15min.ipynb`](15min.ipynb) | 15-minute (original) | 1, 4, 8, 16, 24, 48, 64, 96, 672 |
+| [`behavior_analysis.ipynb`](behavior_analysis.ipynb) | After training | XAI + behavior tests on **all** models → `behaviors/` |
+| [`findings_summary.ipynb`](findings_summary.ipynb) | After behavior_analysis | Aggregate **all** results → `findings/FINDINGS.md` + plots (Colab: self-contained, no extra files) |
+| [`analysis.ipynb`](analysis.ipynb) | After training | Full pipeline (optional; keeps `analysis/` outputs) |
 
 Self-contained Colab notebooks. No `src/` imports.
 
