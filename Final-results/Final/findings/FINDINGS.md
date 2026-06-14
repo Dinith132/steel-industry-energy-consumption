@@ -1,4 +1,6 @@
-# Research Findings — LSTM Behavior Audit
+# Research Findings — LSTM Behavior Audit (Quick Stats)
+
+> **For the full expert analysis, presentation script, and evidence tables, read [`FINAL_FINDINGS.md`](FINAL_FINDINGS.md).**
 
 Generated from **965** files across hourly and 15min tracks (63 trained models with full behavior outputs).
 

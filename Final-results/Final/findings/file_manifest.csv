@@ -416,7 +416,7 @@ path,ext,size_bytes,track,stack,window,category
 15min/xai/single/win96_horizon.png,.png,25293,15min,single,96.0,xai
 15min/xai/single/win96_shap.csv,.csv,395,15min,single,96.0,xai
 analysis/best_models.json,.json,237,,,,analysis
-findings/FINDINGS.md,.md,3186,,,,
+findings/FINDINGS.md,.md,3270,,,,
 findings/file_manifest.csv,.csv,69671,,,,
 findings/gaps_report.csv,.csv,1,,,,
 findings/lime_spearman_subset.csv,.csv,422,,,,
