@@ -1,0 +1,3 @@
+attr,baseline_rmse,rmse_zero,delta
+Lagging_Current_Reactive.Power_kVarh,9.242462490106345,9.929553593826311,0.6870911037199665
+Lagging_Current_Power_Factor,9.242462490106345,9.910446128939043,0.6679836388326983

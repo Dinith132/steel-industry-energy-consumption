@@ -1,0 +1,14 @@
+{
+  "hourly": {
+    "model": "double",
+    "window": 24,
+    "rmse_col": "rmse_kwh",
+    "rmse": 8.899685148398575
+  },
+  "15min": {
+    "model": "single",
+    "window": 96,
+    "rmse_col": "rmse_kwh",
+    "rmse": 8.187367146499094
+  }
+}

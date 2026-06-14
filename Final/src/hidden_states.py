@@ -26,8 +26,9 @@ def extract_hidden_states(
     layer_index: int = 0,
 ) -> np.ndarray:
     """Last hidden state per sample from first LSTM layer."""
+    _ = model.predict(X[:1], verbose=0)
     layer = model.layers[layer_index]
-    sub = tf.keras.Model(model.input, layer.output)
+    sub = tf.keras.Model(inputs=model.inputs, outputs=layer.output)
     out = sub.predict(X, verbose=0)
     if out.ndim == 3:
         return out[:, -1, :]

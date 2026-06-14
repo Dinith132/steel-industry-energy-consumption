@@ -1,0 +1,11 @@
+attr,value
+Usage_kWh,0.1291351690899325
+Lagging_Current_Power_Factor,0.028849091266350938
+Day_of_week,0.02678231481979827
+NSM,0.024079340290534393
+CO2(tCO2),0.016698674073434026
+Lagging_Current_Reactive.Power_kVarh,0.015278816198706741
+Leading_Current_Reactive_Power_kVarh,0.012376662381042226
+Leading_Current_Power_Factor,0.011845655732681221
+WeekStatus,0.009722259623355886
+Load_Type,0.0
