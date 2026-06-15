@@ -18,6 +18,7 @@ The old `Final/hourly.ipynb` / `15min.ipynb` pipelines:
 | — | **`notebooks/preprocess.ipynb`** | EDA → drop bad features → save data |
 | — | **`notebooks/train_hourly.ipynb`** | Train hourly LSTMs (no SHAP) |
 | — | **`notebooks/train_15min.ipynb`** | Train 15min LSTMs (no SHAP) |
+| — | **`notebooks/behavior_analysis.ipynb`** | XAI: SHAP, LIME, Spearman, IG, erasure, fidelity (after training) |
 | 01 | `step01_distributions.py` | Histograms, skew, zeros, temporal coverage |
 | 02 | `step02_correlation.py` | Feature-feature r, VIF, leakage flags |
 | 03 | `step03_feature_selection.py` | Drop bad features, add hour_sin/cos, preprocess |
@@ -42,11 +43,13 @@ python pipeline/step04_windows.py
 ```
 
 Preprocess outputs: **`outputs/preprocess/{15min,hourly}/`**  
-Training outputs: **`outputs/train/{15min,hourly}/`**
+Training outputs: **`outputs/train/{15min,hourly}/`**  
+XAI outputs: **`outputs/behaviors/{15min,hourly}/`**
 
 ### Colab order
 1. `preprocess.ipynb`
 2. `train_hourly.ipynb` and/or `train_15min.ipynb`
+3. `behavior_analysis.ipynb` (after models are saved)
 
 Decision log: **`STEPS.md`**
 

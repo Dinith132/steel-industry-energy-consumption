@@ -1,0 +1,10 @@
+attr,value
+Usage_kWh,6298821909974.038
+Day_of_week,6298821909974.0205
+hour_cos,0.04790729738617561
+hour_sin,0.04534308730084016
+Leading_Current_Power_Factor,0.04439427950178685
+Lagging_Current_Reactive.Power_kVarh,0.028464548145085068
+Lagging_Current_Power_Factor,0.02803147172694063
+Load_Type,0.022825802145283576
+WeekStatus,0.01356756966199877

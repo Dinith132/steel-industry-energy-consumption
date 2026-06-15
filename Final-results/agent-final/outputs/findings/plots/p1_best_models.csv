@@ -1,0 +1,3 @@
+track,best_model,window,rmse_kwh,r2,wia
+hourly,single,36,8.844,0.9113,0.9766
+15min,single,16,8.328,0.9298,0.9813

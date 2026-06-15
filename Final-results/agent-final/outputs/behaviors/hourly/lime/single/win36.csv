@@ -1,0 +1,10 @@
+attr,value
+Usage_kWh,0.0
+Lagging_Current_Reactive.Power_kVarh,0.0
+Lagging_Current_Power_Factor,0.0
+Leading_Current_Power_Factor,0.0
+WeekStatus,0.0
+Day_of_week,0.0
+Load_Type,0.0
+hour_sin,0.0
+hour_cos,0.0
