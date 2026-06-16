@@ -1,2 +1,2 @@
 track,model,window,spearman,p_value,n_attrs
-hourly,bidir,4,,,9
+hourly,bidir,4,0.18333333333333335,0.6368198117628943,9
