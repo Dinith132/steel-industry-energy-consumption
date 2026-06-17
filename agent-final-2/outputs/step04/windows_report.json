@@ -1,0 +1,200 @@
+{
+  "windows": {
+    "10min": [
+      1,
+      6,
+      12,
+      36,
+      72,
+      144,
+      288
+    ],
+    "hourly": [
+      1,
+      4,
+      8,
+      12,
+      24,
+      48,
+      72,
+      168
+    ]
+  },
+  "tracks": {
+    "10min": {
+      "1": {
+        "n_samples": 19734,
+        "n_train": 16181,
+        "n_test": 3553,
+        "X_shape": [
+          19734,
+          1,
+          28
+        ],
+        "ok": true
+      },
+      "6": {
+        "n_samples": 19729,
+        "n_train": 16177,
+        "n_test": 3552,
+        "X_shape": [
+          19729,
+          6,
+          28
+        ],
+        "ok": true
+      },
+      "12": {
+        "n_samples": 19723,
+        "n_train": 16172,
+        "n_test": 3551,
+        "X_shape": [
+          19723,
+          12,
+          28
+        ],
+        "ok": true
+      },
+      "36": {
+        "n_samples": 19699,
+        "n_train": 16153,
+        "n_test": 3546,
+        "X_shape": [
+          19699,
+          36,
+          28
+        ],
+        "ok": true
+      },
+      "72": {
+        "n_samples": 19663,
+        "n_train": 16123,
+        "n_test": 3540,
+        "X_shape": [
+          19663,
+          72,
+          28
+        ],
+        "ok": true
+      },
+      "144": {
+        "n_samples": 19591,
+        "n_train": 16064,
+        "n_test": 3527,
+        "X_shape": [
+          19591,
+          144,
+          28
+        ],
+        "ok": true
+      },
+      "288": {
+        "n_samples": 19447,
+        "n_train": 15946,
+        "n_test": 3501,
+        "X_shape": [
+          19447,
+          288,
+          28
+        ],
+        "ok": true
+      }
+    },
+    "hourly": {
+      "1": {
+        "n_samples": 3289,
+        "n_train": 2696,
+        "n_test": 593,
+        "X_shape": [
+          3289,
+          1,
+          28
+        ],
+        "ok": true
+      },
+      "4": {
+        "n_samples": 3286,
+        "n_train": 2694,
+        "n_test": 592,
+        "X_shape": [
+          3286,
+          4,
+          28
+        ],
+        "ok": true
+      },
+      "8": {
+        "n_samples": 3282,
+        "n_train": 2691,
+        "n_test": 591,
+        "X_shape": [
+          3282,
+          8,
+          28
+        ],
+        "ok": true
+      },
+      "12": {
+        "n_samples": 3278,
+        "n_train": 2687,
+        "n_test": 591,
+        "X_shape": [
+          3278,
+          12,
+          28
+        ],
+        "ok": true
+      },
+      "24": {
+        "n_samples": 3266,
+        "n_train": 2678,
+        "n_test": 588,
+        "X_shape": [
+          3266,
+          24,
+          28
+        ],
+        "ok": true
+      },
+      "48": {
+        "n_samples": 3242,
+        "n_train": 2658,
+        "n_test": 584,
+        "X_shape": [
+          3242,
+          48,
+          28
+        ],
+        "ok": true
+      },
+      "72": {
+        "n_samples": 3218,
+        "n_train": 2638,
+        "n_test": 580,
+        "X_shape": [
+          3218,
+          72,
+          28
+        ],
+        "ok": true
+      },
+      "168": {
+        "n_samples": 3122,
+        "n_train": 2560,
+        "n_test": 562,
+        "X_shape": [
+          3122,
+          168,
+          28
+        ],
+        "ok": true
+      }
+    }
+  },
+  "recommended": {
+    "10min": 36,
+    "hourly": 24,
+    "reason": "balance context vs sample count"
+  },
+  "next_step": "train notebooks \u2014 single/double/bidir LSTM"
+}

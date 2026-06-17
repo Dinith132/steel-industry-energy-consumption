@@ -1,0 +1,363 @@
+{
+  "high_corr_pairs": [
+    {
+      "feature_a": "rv1",
+      "feature_b": "rv2",
+      "r": 1.0
+    },
+    {
+      "feature_a": "T6",
+      "feature_b": "T_out",
+      "r": 0.9748
+    },
+    {
+      "feature_a": "T7",
+      "feature_b": "T9",
+      "r": 0.9448
+    },
+    {
+      "feature_a": "T5",
+      "feature_b": "T9",
+      "r": 0.9111
+    },
+    {
+      "feature_a": "T3",
+      "feature_b": "T9",
+      "r": 0.9013
+    },
+    {
+      "feature_a": "RH_3",
+      "feature_b": "RH_4",
+      "r": 0.899
+    },
+    {
+      "feature_a": "RH_4",
+      "feature_b": "RH_7",
+      "r": 0.8943
+    },
+    {
+      "feature_a": "T1",
+      "feature_b": "T3",
+      "r": 0.8924
+    },
+    {
+      "feature_a": "T4",
+      "feature_b": "T9",
+      "r": 0.8894
+    },
+    {
+      "feature_a": "T3",
+      "feature_b": "T5",
+      "r": 0.8882
+    },
+    {
+      "feature_a": "T1",
+      "feature_b": "T5",
+      "r": 0.8852
+    },
+    {
+      "feature_a": "RH_7",
+      "feature_b": "RH_8",
+      "r": 0.884
+    },
+    {
+      "feature_a": "T7",
+      "feature_b": "T8",
+      "r": 0.8821
+    },
+    {
+      "feature_a": "RH_1",
+      "feature_b": "RH_4",
+      "r": 0.8804
+    },
+    {
+      "feature_a": "T4",
+      "feature_b": "T7",
+      "r": 0.8778
+    },
+    {
+      "feature_a": "T1",
+      "feature_b": "T4",
+      "r": 0.877
+    },
+    {
+      "feature_a": "T4",
+      "feature_b": "T5",
+      "r": 0.8718
+    },
+    {
+      "feature_a": "T5",
+      "feature_b": "T7",
+      "r": 0.8706
+    },
+    {
+      "feature_a": "T8",
+      "feature_b": "T9",
+      "r": 0.8693
+    },
+    {
+      "feature_a": "RH_7",
+      "feature_b": "RH_9",
+      "r": 0.8587
+    },
+    {
+      "feature_a": "RH_4",
+      "feature_b": "RH_9",
+      "r": 0.8566
+    },
+    {
+      "feature_a": "RH_8",
+      "feature_b": "RH_9",
+      "r": 0.8558
+    },
+    {
+      "feature_a": "T3",
+      "feature_b": "T4",
+      "r": 0.8528
+    }
+  ],
+  "target_correlation": {
+    "lights": 0.1973,
+    "RH_out": -0.1523,
+    "T2": 0.1201,
+    "T6": 0.1176,
+    "T_out": 0.0992,
+    "RH_8": -0.094,
+    "Windspeed": 0.0871,
+    "RH_1": 0.086,
+    "T3": 0.0851,
+    "RH_6": -0.0832,
+    "RH_2": -0.0605,
+    "RH_7": -0.0556,
+    "T1": 0.0554,
+    "RH_9": -0.0515,
+    "T4": 0.0403,
+    "T8": 0.0396,
+    "RH_3": 0.0363,
+    "Press_mm_hg": -0.0349,
+    "T7": 0.0258,
+    "T5": 0.0198,
+    "RH_4": 0.017,
+    "Tdewpoint": 0.0154,
+    "rv2": -0.0111,
+    "rv1": -0.0111,
+    "T9": 0.01,
+    "RH_5": 0.007,
+    "Visibility": 0.0002
+  },
+  "vif": [
+    {
+      "feature": "T_out",
+      "VIF": 146.84
+    },
+    {
+      "feature": "Tdewpoint",
+      "VIF": 86.13
+    },
+    {
+      "feature": "RH_out",
+      "VIF": 49.23
+    },
+    {
+      "feature": "T6",
+      "VIF": 33.47
+    },
+    {
+      "feature": "T2",
+      "VIF": 28.81
+    },
+    {
+      "feature": "T9",
+      "VIF": 28.28
+    },
+    {
+      "feature": "RH_2",
+      "VIF": 21.89
+    },
+    {
+      "feature": "T1",
+      "VIF": 19.67
+    },
+    {
+      "feature": "T7",
+      "VIF": 17.5
+    },
+    {
+      "feature": "RH_4",
+      "VIF": 17.13
+    },
+    {
+      "feature": "RH_1",
+      "VIF": 15.96
+    },
+    {
+      "feature": "RH_7",
+      "VIF": 10.83
+    },
+    {
+      "feature": "RH_3",
+      "VIF": 10.82
+    },
+    {
+      "feature": "T5",
+      "VIF": 10.51
+    },
+    {
+      "feature": "RH_6",
+      "VIF": 10.0
+    },
+    {
+      "feature": "T3",
+      "VIF": 10.0
+    },
+    {
+      "feature": "T4",
+      "VIF": 9.83
+    },
+    {
+      "feature": "RH_8",
+      "VIF": 8.51
+    },
+    {
+      "feature": "T8",
+      "VIF": 8.05
+    },
+    {
+      "feature": "RH_9",
+      "VIF": 6.49
+    },
+    {
+      "feature": "Windspeed",
+      "VIF": 1.61
+    },
+    {
+      "feature": "Press_mm_hg",
+      "VIF": 1.41
+    },
+    {
+      "feature": "RH_5",
+      "VIF": 1.38
+    },
+    {
+      "feature": "lights",
+      "VIF": 1.28
+    },
+    {
+      "feature": "Visibility",
+      "VIF": 1.04
+    }
+  ],
+  "decisions": {
+    "leakage_candidates": {},
+    "proposed_drop": [
+      "T6",
+      "T9",
+      "rv1",
+      "rv2"
+    ],
+    "drop_reason": {
+      "rv1": "Random UCI placeholder \u2014 identical to rv2, no physical meaning",
+      "rv2": "Random UCI placeholder \u2014 drop with rv1",
+      "T6": "Near-duplicate of T_out (r=0.9748) \u2014 keep outdoor T_out",
+      "T9": "Highly correlated with other room sensors (r up to 0.9013)"
+    },
+    "proposed_keep": [
+      "Press_mm_hg",
+      "RH_1",
+      "RH_2",
+      "RH_3",
+      "RH_4",
+      "RH_5",
+      "RH_6",
+      "RH_7",
+      "RH_8",
+      "RH_9",
+      "RH_out",
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T7",
+      "T8",
+      "T_out",
+      "Tdewpoint",
+      "Visibility",
+      "Windspeed",
+      "lights"
+    ],
+    "proposed_engineered": [
+      "hour_sin",
+      "hour_cos",
+      "dow_sin",
+      "dow_cos"
+    ],
+    "high_vif": [
+      {
+        "feature": "T_out",
+        "VIF": 146.84
+      },
+      {
+        "feature": "Tdewpoint",
+        "VIF": 86.13
+      },
+      {
+        "feature": "RH_out",
+        "VIF": 49.23
+      },
+      {
+        "feature": "T6",
+        "VIF": 33.47
+      },
+      {
+        "feature": "T2",
+        "VIF": 28.81
+      },
+      {
+        "feature": "T9",
+        "VIF": 28.28
+      },
+      {
+        "feature": "RH_2",
+        "VIF": 21.89
+      },
+      {
+        "feature": "T1",
+        "VIF": 19.67
+      },
+      {
+        "feature": "T7",
+        "VIF": 17.5
+      },
+      {
+        "feature": "RH_4",
+        "VIF": 17.13
+      },
+      {
+        "feature": "RH_1",
+        "VIF": 15.96
+      },
+      {
+        "feature": "RH_7",
+        "VIF": 10.83
+      },
+      {
+        "feature": "RH_3",
+        "VIF": 10.82
+      },
+      {
+        "feature": "T5",
+        "VIF": 10.51
+      },
+      {
+        "feature": "RH_6",
+        "VIF": 10.0
+      },
+      {
+        "feature": "T3",
+        "VIF": 10.0
+      }
+    ],
+    "next_step": "step03_preprocess \u2014 apply drops, engineer time, save 10min + hourly tracks"
+  }
+}

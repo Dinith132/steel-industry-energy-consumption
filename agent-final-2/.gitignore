@@ -1,0 +1,4 @@
+outputs/train/**/*.keras
+outputs/preprocess/**/scaler.pkl
+__pycache__/
+*.pyc
